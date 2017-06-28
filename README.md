@@ -4,7 +4,9 @@
  DisplayActionSheet("Title","Cancel","Destruction","Button1","Button2","Button3",...);
 ```
 
-### The DisplayAlert method can also be used to capture a user's response by presenting two buttons and returning a boolean. To get a response from an alert, supply text for both buttons and await the method. After the user selects one of the options the answer will be returned to your code. Note the async and await keywords in the sample code below:
+### The UIActionSheet is a common UI element in iOS. The Xamarin.Forms DisplayActionSheet method lets you include this control in cross-platforms apps, rendering native alternatives in Android and Windows Phone.
+
+>To display an action sheet, await DisplayActionSheet in any Page, passing the message and button labels as strings. The method returns the string label of the button that was clicked by the user. A simple example is shown here:
 
 ``` cs
         private async void displayActionSheetBtn_Clicked(object sender, EventArgs e)
