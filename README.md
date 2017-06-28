@@ -1,5 +1,9 @@
 # How display Action Sheet in Xamarin.Forms
 
+``` cs
+ DisplayActionSheet("Title","Cancel","Destruction","Button1","Button2","Button3",...);
+```
+
 ### The DisplayAlert method can also be used to capture a user's response by presenting two buttons and returning a boolean. To get a response from an alert, supply text for both buttons and await the method. After the user selects one of the options the answer will be returned to your code. Note the async and await keywords in the sample code below:
 
 ``` cs
